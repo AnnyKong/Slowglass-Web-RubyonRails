@@ -139,12 +139,18 @@ $ bin/rails generate controller Welcome index
 
 
 ## View routes
-`bin/rails routes`
+```
+bin/rails routes
+```
 
 ## Generate more controller and models
-`rails generate controller Articles`
-`rails generate model Article title:string text:text`
+```
+rails generate controller Articles
+rails generate model Article title:string text:text
+```
 
 ## Run migration
-`rails db:migrate`
-`bin/rails db:migrate RAILS_ENV=production.`
+```
+rails db:migrate
+bin/rails db:migrate RAILS_ENV=production.
+```
