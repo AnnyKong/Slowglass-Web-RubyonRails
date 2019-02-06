@@ -26,15 +26,15 @@ Things you may want to cover:
 ## Slowglass Web App
 
 
-## start
+## Start
 ```
 rails new blog
 
 bundle install
 ```
 
-## basic rundown on the function of each of the files and folders that Rails created by default:
-Directory structure
+## Basic rundown on the function by default:
+### Directory structure
 ```
 app/	controllers/models/views/helpers/mailers/channels/jobs/assets
 
@@ -72,7 +72,7 @@ vendor/	third-party code. i.e. vendored gems
 .ruby-version	This file contains the default Ruby version.
 ```
 
-Detailed version:
+### Detailed version:
 ```
 File/Folder	Purpose
 app/	
@@ -123,12 +123,12 @@ A place for all third-party code. In a typical Rails application this includes v
 .ruby-version	This file contains the default Ruby version.
 ```
 
-## view all commands
+## View all commands
 ```
 rails new -h.
 ```
 
-## start app
+## Start app
 ```
 
 $ bin/rails server
@@ -138,13 +138,13 @@ $ bin/rails generate controller Welcome index
 ```
 
 
-## view routes
+## View routes
 `bin/rails routes`
 
-## generate more controller and models
+## Generate more controller and models
 `rails generate controller Articles`
 `rails generate model Article title:string text:text`
 
-## run migration
+## Run migration
 `rails db:migrate`
 `bin/rails db:migrate RAILS_ENV=production.`
